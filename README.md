@@ -20,7 +20,7 @@ $ npm install -g @oclif/plugin-test-core-v3
 $ corev3 COMMAND
 running command...
 $ corev3 (--version)
-@oclif/plugin-test-core-v3/0.0.0 darwin-arm64 node-v20.13.1
+@oclif/plugin-test-core-v3/0.1.0 linux-x64 node-v18.20.2
 $ corev3 --help [COMMAND]
 USAGE
   $ corev3 COMMAND
@@ -29,19 +29,35 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`corev3 core-v3 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`](#corev3-core-v3-optionalarg-defaultarg-defaultfnarg)
 * [`corev3 hello PERSON`](#corev3-hello-person)
 * [`corev3 hello world`](#corev3-hello-world)
 * [`corev3 help [COMMAND]`](#corev3-help-command)
 * [`corev3 plugins`](#corev3-plugins)
-* [`corev3 plugins add PLUGIN`](#corev3-plugins-add-plugin)
 * [`corev3 plugins:inspect PLUGIN...`](#corev3-pluginsinspect-plugin)
 * [`corev3 plugins install PLUGIN`](#corev3-plugins-install-plugin)
 * [`corev3 plugins link PATH`](#corev3-plugins-link-path)
-* [`corev3 plugins remove [PLUGIN]`](#corev3-plugins-remove-plugin)
 * [`corev3 plugins reset`](#corev3-plugins-reset)
 * [`corev3 plugins uninstall [PLUGIN]`](#corev3-plugins-uninstall-plugin)
-* [`corev3 plugins unlink [PLUGIN]`](#corev3-plugins-unlink-plugin)
 * [`corev3 plugins update`](#corev3-plugins-update)
+
+## `corev3 core-v3 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG]`
+
+```
+USAGE
+  $ corev3 core-v3 [OPTIONALARG] [DEFAULTARG] [DEFAULTFNARG] [--json] [--optionalString <value>]
+    [--defaultString <value>] [--defaultFnString <value>]
+
+FLAGS
+  --defaultFnString=<value>  [default: async fn default]
+  --defaultString=<value>    [default: simple string default]
+  --optionalString=<value>
+
+GLOBAL FLAGS
+  --json  Format output as json.
+```
+
+_See code: [src/commands/core-v3.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.0/src/commands/core-v3.ts)_
 
 ## `corev3 hello PERSON`
 
@@ -65,7 +81,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/oclif/plugin-test-core-v3/blob/v0.0.0/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.0/src/commands/hello/index.ts)_
 
 ## `corev3 hello world`
 
@@ -83,7 +99,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/oclif/plugin-test-core-v3/blob/v0.0.0/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.0/src/commands/hello/world.ts)_
 
 ## `corev3 help [COMMAND]`
 
@@ -103,7 +119,7 @@ DESCRIPTION
   Display help for corev3.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.0.22/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/6.0.22/src/commands/help.ts)_
 
 ## `corev3 plugins`
 
@@ -126,54 +142,7 @@ EXAMPLES
   $ corev3 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.1.2/src/commands/plugins/index.ts)_
-
-## `corev3 plugins add PLUGIN`
-
-Installs a plugin into corev3.
-
-```
-USAGE
-  $ corev3 plugins add PLUGIN... [--json] [-f] [-h] [-s | -v]
-
-ARGUMENTS
-  PLUGIN...  Plugin to install.
-
-FLAGS
-  -f, --force    Force npm to fetch remote resources even if a local copy exists on disk.
-  -h, --help     Show CLI help.
-  -s, --silent   Silences npm output.
-  -v, --verbose  Show verbose npm output.
-
-GLOBAL FLAGS
-  --json  Format output as json.
-
-DESCRIPTION
-  Installs a plugin into corev3.
-
-  Uses bundled npm executable to install plugins into /Users/mdonnalley/.local/share/corev3
-
-  Installation of a user-installed plugin will override a core plugin.
-
-  Use the COREV3_NPM_LOG_LEVEL environment variable to set the npm loglevel.
-  Use the COREV3_NPM_REGISTRY environment variable to set the npm registry.
-
-ALIASES
-  $ corev3 plugins add
-
-EXAMPLES
-  Install a plugin from npm registry.
-
-    $ corev3 plugins add myplugin
-
-  Install a plugin from a github url.
-
-    $ corev3 plugins add https://github.com/someuser/someplugin
-
-  Install a plugin from a github slug.
-
-    $ corev3 plugins add someuser/someplugin
-```
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/index.ts)_
 
 ## `corev3 plugins:inspect PLUGIN...`
 
@@ -200,7 +169,7 @@ EXAMPLES
   $ corev3 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.1.2/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/inspect.ts)_
 
 ## `corev3 plugins install PLUGIN`
 
@@ -225,7 +194,7 @@ GLOBAL FLAGS
 DESCRIPTION
   Installs a plugin into corev3.
 
-  Uses bundled npm executable to install plugins into /Users/mdonnalley/.local/share/corev3
+  Uses bundled npm executable to install plugins into /home/runner/.local/share/corev3
 
   Installation of a user-installed plugin will override a core plugin.
 
@@ -249,7 +218,7 @@ EXAMPLES
     $ corev3 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.1.2/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/install.ts)_
 
 ## `corev3 plugins link PATH`
 
@@ -279,33 +248,7 @@ EXAMPLES
   $ corev3 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.1.2/src/commands/plugins/link.ts)_
-
-## `corev3 plugins remove [PLUGIN]`
-
-Removes a plugin from the CLI.
-
-```
-USAGE
-  $ corev3 plugins remove [PLUGIN...] [-h] [-v]
-
-ARGUMENTS
-  PLUGIN...  plugin to uninstall
-
-FLAGS
-  -h, --help     Show CLI help.
-  -v, --verbose
-
-DESCRIPTION
-  Removes a plugin from the CLI.
-
-ALIASES
-  $ corev3 plugins unlink
-  $ corev3 plugins remove
-
-EXAMPLES
-  $ corev3 plugins remove myplugin
-```
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/link.ts)_
 
 ## `corev3 plugins reset`
 
@@ -320,7 +263,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.1.2/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/reset.ts)_
 
 ## `corev3 plugins uninstall [PLUGIN]`
 
@@ -348,33 +291,7 @@ EXAMPLES
   $ corev3 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.1.2/src/commands/plugins/uninstall.ts)_
-
-## `corev3 plugins unlink [PLUGIN]`
-
-Removes a plugin from the CLI.
-
-```
-USAGE
-  $ corev3 plugins unlink [PLUGIN...] [-h] [-v]
-
-ARGUMENTS
-  PLUGIN...  plugin to uninstall
-
-FLAGS
-  -h, --help     Show CLI help.
-  -v, --verbose
-
-DESCRIPTION
-  Removes a plugin from the CLI.
-
-ALIASES
-  $ corev3 plugins unlink
-  $ corev3 plugins remove
-
-EXAMPLES
-  $ corev3 plugins unlink myplugin
-```
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/uninstall.ts)_
 
 ## `corev3 plugins update`
 
@@ -392,5 +309,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.1.2/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.1.2/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
