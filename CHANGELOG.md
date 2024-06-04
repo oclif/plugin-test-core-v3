@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/oclif/plugin-test-core-v3/compare/0.1.3...0.1.4) (2024-06-04)
+
+
+### Bug Fixes
+
+* register hook in pjson ([31c6661](https://github.com/oclif/plugin-test-core-v3/commit/31c6661d82ba85df159e7511ff121f9ef3ab470b))
+
+
+
 ## [0.1.3](https://github.com/oclif/plugin-test-core-v3/compare/0.1.2...0.1.3) (2024-06-02)
 
 
