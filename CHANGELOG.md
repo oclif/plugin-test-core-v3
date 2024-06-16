@@ -1,3 +1,12 @@
+## [0.1.8](https://github.com/oclif/plugin-test-core-v3/compare/0.1.7...0.1.8) (2024-06-16)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-help from 6.2.1 to 6.2.2 ([#18](https://github.com/oclif/plugin-test-core-v3/issues/18)) ([bf2af29](https://github.com/oclif/plugin-test-core-v3/commit/bf2af29a4d9aa33ef29bb8a2f488d82479673d67))
+
+
+
 ## [0.1.7](https://github.com/oclif/plugin-test-core-v3/compare/0.1.6...0.1.7) (2024-06-10)
 
 
