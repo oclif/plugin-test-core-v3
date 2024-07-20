@@ -1134,12 +1134,12 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^5":
-  version "5.3.6"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.3.6.tgz#e64e8606f438b6d08f0cc4cf1e0bd3e0a19ceb38"
-  integrity sha512-bUx+tWwjHzBeJj+eP1KBuCTF9tG/nV8VE06fAElCUL317d9sAGfbHJwPQwTPWzVnCUz50H+uUxyK5GgMTxwtgQ==
+  version "5.3.7"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.3.7.tgz#fa3745f67b754d1eaf2b4934622b4c86015ac776"
+  integrity sha512-z911JJUj/7eZ7L3GXYTJHDIe35Qm1TFQ/4CVMf1YyEBLhO3yktbzcys2+ncmdlphyoJCYwOsnfSPV09oBtT4ZA==
   dependencies:
     "@oclif/core" "^4"
-    ansis "^3.2.0"
+    ansis "^3.2.1"
     debug "^4.3.4"
     npm "^10.8.2"
     npm-package-arg "^11.0.2"
@@ -2126,10 +2126,10 @@ ansicolors@~0.3.2:
   resolved "https://registry.yarnpkg.com/ansicolors/-/ansicolors-0.3.2.tgz#665597de86a9ffe3aa9bfbe6cae5c6ea426b4979"
   integrity sha512-QXu7BPrP29VllRxH8GwB7x5iX5qWKAAMLqKQGWTeLWVlNHNOpVMJ91dsxQAIWXpjuW5wqvxu3Jd/nRjrJ+0pqg==
 
-ansis@^3.1.1, ansis@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/ansis/-/ansis-3.2.0.tgz#0e050c5be94784f32ffdac4b84fccba064aeae4b"
-  integrity sha512-Yk3BkHH9U7oPyCN3gL5Tc7CpahG/+UFv/6UG03C311Vy9lzRmA5uoxDTpU9CO3rGHL6KzJz/pdDeXZCZ5Mu/Sg==
+ansis@^3.1.1, ansis@^3.2.0, ansis@^3.2.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/ansis/-/ansis-3.3.1.tgz#c89b7d3892cc5be0f0f302f17ec84f8d2502da75"
+  integrity sha512-dW/sqnbVeWXW1UMRyKGHiJj+vBrlnnDcvyNMDB8BBI4Gu0tsohweIkvcqb3bNNwcVn70LTyvvnGgjUzUVFnK6Q==
 
 anymatch@~3.1.2:
   version "3.1.3"
