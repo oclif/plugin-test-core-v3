@@ -1,3 +1,12 @@
+## [0.1.25](https://github.com/oclif/plugin-test-core-v3/compare/0.1.24...0.1.25) (2024-09-13)
+
+
+### Bug Fixes
+
+* **deps:** bump path-to-regexp from 6.2.2 to 6.3.0 ([#67](https://github.com/oclif/plugin-test-core-v3/issues/67)) ([0944956](https://github.com/oclif/plugin-test-core-v3/commit/0944956feb317209f99c30bd7fb2fcd1755a914d))
+
+
+
 ## [0.1.24](https://github.com/oclif/plugin-test-core-v3/compare/0.1.23...0.1.24) (2024-09-01)
 
 
