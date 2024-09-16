@@ -20,7 +20,7 @@ $ npm install -g @oclif/plugin-test-core-v3
 $ corev3 COMMAND
 running command...
 $ corev3 (--version)
-@oclif/plugin-test-core-v3/0.1.25 linux-x64 node-v18.20.4
+@oclif/plugin-test-core-v3/0.1.26 linux-x64 node-v18.20.4
 $ corev3 --help [COMMAND]
 USAGE
   $ corev3 COMMAND
@@ -57,7 +57,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/core-v3.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.25/src/commands/core-v3.ts)_
+_See code: [src/commands/core-v3.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.26/src/commands/core-v3.ts)_
 
 ## `corev3 hello PERSON`
 
@@ -81,7 +81,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.25/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.26/src/commands/hello/index.ts)_
 
 ## `corev3 hello world`
 
@@ -99,7 +99,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.25/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.26/src/commands/hello/world.ts)_
 
 ## `corev3 help [COMMAND]`
 
@@ -142,7 +142,7 @@ EXAMPLES
   $ corev3 plugins
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.6/src/commands/plugins/index.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.8/src/commands/plugins/index.ts)_
 
 ## `corev3 plugins:inspect PLUGIN...`
 
@@ -169,7 +169,7 @@ EXAMPLES
   $ corev3 plugins inspect myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.6/src/commands/plugins/inspect.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.8/src/commands/plugins/inspect.ts)_
 
 ## `corev3 plugins install PLUGIN`
 
@@ -218,7 +218,7 @@ EXAMPLES
     $ corev3 plugins install someuser/someplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.6/src/commands/plugins/install.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.8/src/commands/plugins/install.ts)_
 
 ## `corev3 plugins link PATH`
 
@@ -248,7 +248,7 @@ EXAMPLES
   $ corev3 plugins link myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.6/src/commands/plugins/link.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.8/src/commands/plugins/link.ts)_
 
 ## `corev3 plugins reset`
 
@@ -263,7 +263,7 @@ FLAGS
   --reinstall  Reinstall all plugins after uninstalling.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.6/src/commands/plugins/reset.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.8/src/commands/plugins/reset.ts)_
 
 ## `corev3 plugins uninstall [PLUGIN]`
 
@@ -291,7 +291,7 @@ EXAMPLES
   $ corev3 plugins uninstall myplugin
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.6/src/commands/plugins/uninstall.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.8/src/commands/plugins/uninstall.ts)_
 
 ## `corev3 plugins update`
 
@@ -309,5 +309,5 @@ DESCRIPTION
   Update installed plugins.
 ```
 
-_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.6/src/commands/plugins/update.ts)_
+_See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/5.4.8/src/commands/plugins/update.ts)_
 <!-- commandsstop -->
