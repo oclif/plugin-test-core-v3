@@ -1,3 +1,12 @@
+## [0.1.35](https://github.com/oclif/plugin-test-core-v3/compare/0.1.34...0.1.35) (2024-11-17)
+
+
+### Bug Fixes
+
+* **deps:** bump cross-spawn from 7.0.3 to 7.0.5 ([#105](https://github.com/oclif/plugin-test-core-v3/issues/105)) ([d1154d4](https://github.com/oclif/plugin-test-core-v3/commit/d1154d488c8e36796a9796272f8aa4939de0bb5a))
+
+
+
 ## [0.1.34](https://github.com/oclif/plugin-test-core-v3/compare/0.1.33...0.1.34) (2024-11-17)
 
 
