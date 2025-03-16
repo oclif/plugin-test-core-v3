@@ -20,7 +20,7 @@ $ npm install -g @oclif/plugin-test-core-v3
 $ corev3 COMMAND
 running command...
 $ corev3 (--version)
-@oclif/plugin-test-core-v3/0.1.54 linux-x64 node-v20.18.3
+@oclif/plugin-test-core-v3/0.1.55 linux-x64 node-v20.18.3
 $ corev3 --help [COMMAND]
 USAGE
   $ corev3 COMMAND
@@ -57,7 +57,7 @@ GLOBAL FLAGS
   --json  Format output as json.
 ```
 
-_See code: [src/commands/core-v3.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.54/src/commands/core-v3.ts)_
+_See code: [src/commands/core-v3.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.55/src/commands/core-v3.ts)_
 
 ## `corev3 hello PERSON`
 
@@ -81,7 +81,7 @@ EXAMPLES
   hello friend from oclif! (./src/commands/hello/index.ts)
 ```
 
-_See code: [src/commands/hello/index.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.54/src/commands/hello/index.ts)_
+_See code: [src/commands/hello/index.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.55/src/commands/hello/index.ts)_
 
 ## `corev3 hello world`
 
@@ -99,7 +99,7 @@ EXAMPLES
   hello world! (./src/commands/hello/world.ts)
 ```
 
-_See code: [src/commands/hello/world.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.54/src/commands/hello/world.ts)_
+_See code: [src/commands/hello/world.ts](https://github.com/oclif/plugin-test-core-v3/blob/0.1.55/src/commands/hello/world.ts)_
 
 ## `corev3 help [COMMAND]`
 
@@ -119,7 +119,7 @@ DESCRIPTION
   Display help for corev3.
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/6.2.26/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/6.2.27/src/commands/help.ts)_
 
 ## `corev3 plugins`
 
