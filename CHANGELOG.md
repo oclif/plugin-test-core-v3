@@ -1,3 +1,12 @@
+## [0.1.78](https://github.com/oclif/plugin-test-core-v3/compare/0.1.77...0.1.78) (2026-01-23)
+
+
+### Bug Fixes
+
+* **deps:** bump lodash from 4.17.21 to 4.17.23 ([#327](https://github.com/oclif/plugin-test-core-v3/issues/327)) ([31944e1](https://github.com/oclif/plugin-test-core-v3/commit/31944e149799be93daff54521000d5e877ac630c))
+
+
+
 ## [0.1.77](https://github.com/oclif/plugin-test-core-v3/compare/0.1.76...0.1.77) (2025-11-16)
 
 
