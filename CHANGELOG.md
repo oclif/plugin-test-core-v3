@@ -1,3 +1,12 @@
+## [0.1.92](https://github.com/oclif/plugin-test-core-v3/compare/0.1.91...0.1.92) (2026-05-09)
+
+
+### Bug Fixes
+
+* **deps:** bump fast-xml-builder from 1.1.4 to 1.2.0 ([#364](https://github.com/oclif/plugin-test-core-v3/issues/364)) ([5ff1b73](https://github.com/oclif/plugin-test-core-v3/commit/5ff1b73ad6bcc6bf2685d15c3b09521113942ec5))
+
+
+
 ## [0.1.91](https://github.com/oclif/plugin-test-core-v3/compare/0.1.90...0.1.91) (2026-05-03)
 
 
