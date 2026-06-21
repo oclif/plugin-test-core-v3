@@ -1,3 +1,12 @@
+## [0.1.102](https://github.com/oclif/plugin-test-core-v3/compare/0.1.101...0.1.102) (2026-06-21)
+
+
+### Bug Fixes
+
+* **deps:** bump undici from 6.25.0 to 6.27.0 ([#388](https://github.com/oclif/plugin-test-core-v3/issues/388)) ([25cd359](https://github.com/oclif/plugin-test-core-v3/commit/25cd3598b2ef2e86001e837bf241e2c891ce57a3))
+
+
+
 ## [0.1.101](https://github.com/oclif/plugin-test-core-v3/compare/0.1.100...0.1.101) (2026-06-21)
 
 
