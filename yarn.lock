@@ -1268,10 +1268,10 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^4", "@oclif/core@^4.11.4":
-  version "4.11.4"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.11.4.tgz#14082760c0b8e677331aeba3f32e6bf75e2556c0"
-  integrity sha512-URwiQ5ALx/sJ2iH4vzXEd+H4K6NAI7LRs6Jag3hrgKEpGmaE6alfRC8qjO4GIgb6A3ACaJumqP9twi/M9ywdHQ==
+"@oclif/core@^4", "@oclif/core@^4.11.4", "@oclif/core@^4.11.7":
+  version "4.11.11"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.11.11.tgz#bd5c7d79285c12a43e5830b3362773dbe6048878"
+  integrity sha512-LoGzrvkH9I8dwhxuLafcf90MAp+fYfAiAhpyixaVAWaclIgs+vXeMMQwBG90/wqjdygIKcFAqNnNJrfl3s3X8Q==
   dependencies:
     ansi-escapes "^4.3.2"
     ansis "^3.17.0"
@@ -1287,7 +1287,7 @@
     semver "^7.8.1"
     string-width "^4.2.3"
     supports-color "^8"
-    tinyglobby "^0.2.16"
+    tinyglobby "^0.2.17"
     widest-line "^3.1.0"
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
@@ -1310,18 +1310,18 @@
     fast-levenshtein "^3.0.0"
 
 "@oclif/plugin-plugins@^5":
-  version "5.4.76"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.76.tgz#eb62dae1478f01dbd98d67b830a64284a03e4438"
-  integrity sha512-15t0x9mzH2Gb1nkc1aCjpSvUY4RHg6HWAXQ9Fm7MKi8Xmkf00UHIMBrp5q0QMnwmXnCoRHvj8IynJoYann+xqw==
+  version "5.4.79"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-plugins/-/plugin-plugins-5.4.79.tgz#025c5d662da4315453342765c33d79938f4a07c9"
+  integrity sha512-Nnk3OzELhldXN/544lhIMo1uLC/4W2/hEY+3Oj8WGbkWR7kBn8xwvgCbb3BAx/BROqPP/S+ZPDz8gdom7HudTA==
   dependencies:
-    "@oclif/core" "^4.11.4"
+    "@oclif/core" "^4.11.7"
     ansis "^3.17.0"
     debug "^4.4.0"
     npm "^11.17.0"
     npm-package-arg "^11.0.3"
     npm-run-path "^5.3.0"
     object-treeify "^4.0.1"
-    semver "^7.8.2"
+    semver "^7.8.5"
     validate-npm-package-name "^5.0.1"
     which "^4.0.0"
     yarn "^1.22.22"
@@ -6164,10 +6164,10 @@ semver@^6.3.1:
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
-semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.1, semver@^7.7.2, semver@^7.7.3, semver@^7.8.1, semver@^7.8.2, semver@^7.8.4:
-  version "7.8.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.4.tgz#c73eceebae0616934be8dff28a7fd70757c8e696"
-  integrity sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==
+semver@^7.1.1, semver@^7.3.5, semver@^7.3.7, semver@^7.5.3, semver@^7.5.4, semver@^7.6.0, semver@^7.6.3, semver@^7.7.1, semver@^7.7.2, semver@^7.7.3, semver@^7.8.1, semver@^7.8.4, semver@^7.8.5:
+  version "7.8.5"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.8.5.tgz#39b646037dd50c14fb451e7e4cac58ed8b863f69"
+  integrity sha512-Y7/KDsb8LjooZpwaqGyulO6DQlksgCncchHGk+sZIY4SBvUocMBEFH5Ur1fI4dV+Jvl0w6cjvucaIi40puRioA==
 
 sentence-case@^3.0.4:
   version "3.0.4"
@@ -6690,10 +6690,10 @@ tinyglobby@^0.2.15:
     fdir "^6.5.0"
     picomatch "^4.0.3"
 
-tinyglobby@^0.2.16:
-  version "0.2.16"
-  resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.16.tgz#1c3b7eb953fce42b226bc5a1ee06428281aff3d6"
-  integrity sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==
+tinyglobby@^0.2.17:
+  version "0.2.17"
+  resolved "https://registry.yarnpkg.com/tinyglobby/-/tinyglobby-0.2.17.tgz#562a9a6c9eb2b3b123d39719f9af5bb44fcd7631"
+  integrity sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g==
   dependencies:
     fdir "^6.5.0"
     picomatch "^4.0.4"
