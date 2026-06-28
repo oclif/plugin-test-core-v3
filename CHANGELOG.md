@@ -1,3 +1,12 @@
+## [0.1.104](https://github.com/oclif/plugin-test-core-v3/compare/0.1.103...0.1.104) (2026-06-28)
+
+
+### Bug Fixes
+
+* **deps:** bump @sigstore/core from 3.2.0 to 3.2.1 ([#393](https://github.com/oclif/plugin-test-core-v3/issues/393)) ([613be22](https://github.com/oclif/plugin-test-core-v3/commit/613be220da022f8559811a08e9fd9285b6c49eb6))
+
+
+
 ## [0.1.103](https://github.com/oclif/plugin-test-core-v3/compare/0.1.102...0.1.103) (2026-06-23)
 
 
