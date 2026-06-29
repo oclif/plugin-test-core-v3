@@ -1,3 +1,12 @@
+## [0.1.105](https://github.com/oclif/plugin-test-core-v3/compare/0.1.104...0.1.105) (2026-06-29)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/plugin-plugins from 5.4.76 to 5.4.80 ([#390](https://github.com/oclif/plugin-test-core-v3/issues/390)) ([042c7b0](https://github.com/oclif/plugin-test-core-v3/commit/042c7b04f4c5e6ede5977e01ee759143abdbf74c))
+
+
+
 ## [0.1.104](https://github.com/oclif/plugin-test-core-v3/compare/0.1.103...0.1.104) (2026-06-28)
 
 
