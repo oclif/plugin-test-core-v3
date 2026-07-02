@@ -1,3 +1,12 @@
+## [0.1.107](https://github.com/oclif/plugin-test-core-v3/compare/0.1.106...0.1.107) (2026-07-02)
+
+
+### Bug Fixes
+
+* **deps:** bump sigstore from 4.1.0 to 4.1.1 ([#395](https://github.com/oclif/plugin-test-core-v3/issues/395)) ([6312f57](https://github.com/oclif/plugin-test-core-v3/commit/6312f577706fa5273e4f996fb42adc3586c68719))
+
+
+
 ## [0.1.106](https://github.com/oclif/plugin-test-core-v3/compare/0.1.105...0.1.106) (2026-07-02)
 
 
