@@ -1,3 +1,12 @@
+## [0.1.110](https://github.com/oclif/plugin-test-core-v3/compare/0.1.109...0.1.110) (2026-07-26)
+
+
+### Bug Fixes
+
+* **deps:** bump tar from 7.5.16 to 7.5.22 ([#406](https://github.com/oclif/plugin-test-core-v3/issues/406)) ([076525f](https://github.com/oclif/plugin-test-core-v3/commit/076525fdb36554fdbef789698b0c9b8570a71a54))
+
+
+
 ## [0.1.109](https://github.com/oclif/plugin-test-core-v3/compare/0.1.108...0.1.109) (2026-07-05)
 
 
