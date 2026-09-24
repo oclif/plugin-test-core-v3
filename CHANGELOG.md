@@ -1,3 +1,12 @@
+## [0.1.116](https://github.com/oclif/plugin-test-core-v3/compare/0.1.115...0.1.116) (2026-09-24)
+
+
+### Bug Fixes
+
+* bumping deps (W-24099831) ([0a72206](https://github.com/oclif/plugin-test-core-v3/commit/0a72206b43b0c6ae12f295d168ceef7d3a2ce4ac))
+
+
+
 ## [0.1.115](https://github.com/oclif/plugin-test-core-v3/compare/0.1.114...0.1.115) (2026-08-16)
 
 
