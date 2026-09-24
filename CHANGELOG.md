@@ -1,3 +1,12 @@
+## [0.1.117](https://github.com/oclif/plugin-test-core-v3/compare/0.1.116...0.1.117) (2026-09-24)
+
+
+### Bug Fixes
+
+* resolving interoperability test (W-24099831) ([c61a9c6](https://github.com/oclif/plugin-test-core-v3/commit/c61a9c695a1acf16382373922591cd19080e3b56))
+
+
+
 ## [0.1.116](https://github.com/oclif/plugin-test-core-v3/compare/0.1.115...0.1.116) (2026-09-24)
 
 
