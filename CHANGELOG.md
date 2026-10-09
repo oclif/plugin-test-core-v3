@@ -1,3 +1,12 @@
+## [0.1.122](https://github.com/oclif/plugin-test-core-v3/compare/0.1.121...0.1.122) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump js-yaml from 4.1.0 to 4.3.2 ([#422](https://github.com/oclif/plugin-test-core-v3/issues/422)) ([db737d7](https://github.com/oclif/plugin-test-core-v3/commit/db737d793270b7db2fe7857d09f33a01f19e36cb))
+
+
+
 ## [0.1.121](https://github.com/oclif/plugin-test-core-v3/compare/0.1.120...0.1.121) (2026-10-09)
 
 
