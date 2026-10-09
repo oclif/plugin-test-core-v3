@@ -1,3 +1,12 @@
+## [0.1.121](https://github.com/oclif/plugin-test-core-v3/compare/0.1.120...0.1.121) (2026-10-09)
+
+
+### Bug Fixes
+
+* **deps:** bump postcss-selector-parser from 7.1.1 to 7.1.6 ([#426](https://github.com/oclif/plugin-test-core-v3/issues/426)) ([e61c84e](https://github.com/oclif/plugin-test-core-v3/commit/e61c84e92297a73f091231370c4f207122ec9c79))
+
+
+
 ## [0.1.120](https://github.com/oclif/plugin-test-core-v3/compare/0.1.119...0.1.120) (2026-10-09)
 
 
