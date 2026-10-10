@@ -1,3 +1,12 @@
+## [0.1.125](https://github.com/oclif/plugin-test-core-v3/compare/0.1.124...0.1.125) (2026-10-10)
+
+
+### Bug Fixes
+
+* **deps:** bump pacote from 21.5.0 to 21.5.1 ([#414](https://github.com/oclif/plugin-test-core-v3/issues/414)) ([749ae9d](https://github.com/oclif/plugin-test-core-v3/commit/749ae9d4b87ffd3494598cd54189f407af4e8dfe))
+
+
+
 ## [0.1.124](https://github.com/oclif/plugin-test-core-v3/compare/0.1.123...0.1.124) (2026-10-10)
 
 
