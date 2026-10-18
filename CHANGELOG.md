@@ -1,3 +1,12 @@
+## [0.1.131](https://github.com/oclif/plugin-test-core-v3/compare/0.1.130...0.1.131) (2026-10-18)
+
+
+### Bug Fixes
+
+* **deps:** bump @oclif/core from 5.1.2 to 5.1.8 ([#434](https://github.com/oclif/plugin-test-core-v3/issues/434)) ([7e7c132](https://github.com/oclif/plugin-test-core-v3/commit/7e7c1329c65d104ca5b4621550fdb26081f1487c))
+
+
+
 ## [0.1.130](https://github.com/oclif/plugin-test-core-v3/compare/0.1.129...0.1.130) (2026-10-18)
 
 
